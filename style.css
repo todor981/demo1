@@ -37,9 +37,7 @@ font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #fff;
 }
-.n1{
-  height: 90vh;
-}
+
 .n1-btn h1{
   font-size: 2em;
 }
@@ -141,6 +139,7 @@ font-family: 'Poppins', sans-serif;
                         "h4 h5 h6";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50px 50px;
+  margin-bottom: 60px;
 
 }
 .n1_txtbox{
@@ -152,6 +151,8 @@ font-family: 'Poppins', sans-serif;
 .n1_txtbox > h3{
   font-size: 20px;
   font-weight: 600;
+}
+.n1_txtbox > h4{
 }
 .doc{
   text-align: center;
@@ -217,7 +218,6 @@ font-family: 'Poppins', sans-serif;
 
 
 .quote{
-  height: 90vh;
   width: 100%;
 }
 .sit{
@@ -419,7 +419,7 @@ font-family: 'Poppins', sans-serif;
 .list-slide{
   padding: 60px 0;
   margin: 0 auto;
-  width:1000px ;
+  width:60% ;
 
 }
 .slide{
@@ -640,7 +640,6 @@ font-family: 'Poppins', sans-serif;
 }
 .lg{
   max-width: 1200px;
-  
 }
 .logo{
   display: flex;
@@ -752,7 +751,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 .footer h4{
-  font-size: 1em;
+  font-size: .8em;
   margin-bottom: 50px;
 
 }
@@ -782,19 +781,54 @@ font-family: 'Poppins', sans-serif;
 }
 /* responsive */
 @media only screen and (min-width: 481px) and (max-width: 1200px) {
-  .n1-menu{
-    display: none;
-  }
-  
-}
-@media only screen and (max-width: 481px)  {
   .n1-img{
     display: none;
+    /* height: 300px; */
+  }
+  .logo{
+    justify-content: center;
+    align-items: center;
+  
   }
   .bag{
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns:1fr ;
+    /* grid-template-rows: 1fr 1fr; */
+  }
+  .n1-menu {
+    display: none;
+  }
+   .sit h1{
+    width: 70%;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .conten-box{
+    /* max-width: 1200px; */
     display: flex;
+    gap: 60px;
+    flex-direction: column;
+    margin-bottom: 120px;
+    padding:0 24px;
+  }
+  .list-slide{}
+}
+@media only screen and (max-width: 481px)  {
+  .n1-img{
+    display: none;
+    /* height: 300px; */
+  }
+  .dolor-1{
+    margin-bottom: 20px;
+  }
+  .bag{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr ;
+    /* grid-template-rows: 1fr 1fr; */
   }
   .n1-menu >a:first-child{
     display: block;
@@ -803,7 +837,7 @@ font-family: 'Poppins', sans-serif;
     display: none;
   }
   .in{
-    margin: 5%;
+    margin: 60px 16px;
     
   }
   ._1th{
@@ -1045,4 +1079,6 @@ font-family: 'Poppins', sans-serif;
 }
 
 }
+
+
 
